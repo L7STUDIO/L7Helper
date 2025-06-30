@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наш бот в разработке</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            max-width: 500px;
+            width: 90%;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #0088cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 136, 204, 0.3);
+        }
+
+        .btn:hover {
+            background-color: #006699;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 136, 204, 0.4);
+        }
+
+        .telegram-icon {
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Наш бот в разработке</h1>
+        <p>Мы усердно работаем над созданием полезного и удобного Telegram бота. Скоро он будет доступен для всех пользователей!</p>
+        <a href="https://t.me/L7Studio" class="btn">
+            <svg class="telegram-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z" fill="#0088CC"/>
+                <path d="M5.49141 11.7398L16.982 7.11101C17.6581 6.85372 18.2435 7.18186 18.0183 8.13243L18.0193 8.13143L15.5349 18.0287C15.3193 18.9067 14.8086 19.1016 14.0813 18.7076L10.541 16.0597L8.79141 17.7176C8.60641 17.9026 8.45141 18.0576 8.09141 18.0576L8.33641 14.4576L15.1914 8.33762C15.5039 8.06212 15.1239 7.90712 14.7114 8.18262L6.69141 13.4376L3.19141 12.3576C2.33141 12.1026 2.32191 11.5327 3.39141 11.1127L20.3914 5.11272L20.3924 5.11172C21.2924 4.76172 22.0619 5.23272 21.7219 6.50772L18.7219 19.7077C18.3919 20.9327 17.5819 21.3576 16.4614 20.8326L5.49141 11.7398Z" fill="white"/>
+            </svg>
+            Перейти в @L7Studio
+        </a>
+    </div>
+</body>
+</html>
